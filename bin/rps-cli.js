@@ -1,2 +1,2 @@
 #!/usr/bin/env node
-import {rps} from "/lib/rpsls"
+import {rps} from "/lib/rpsls";
