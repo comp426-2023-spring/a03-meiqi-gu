@@ -29,4 +29,8 @@ if (mini.r || mini.rules) {
     process.exit(0); 
 }
 
-console.log(rps('')); 
+if (mini._[0]) {
+    console.log(rps(mini._[0])); 
+} else {
+    console.log(rps()); 
+}
