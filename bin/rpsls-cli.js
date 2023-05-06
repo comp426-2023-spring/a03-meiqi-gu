@@ -34,3 +34,9 @@ if (mini.r || mini.rules) {
     - Rock CRUSHES Scissors`); 
     process.exit(0); 
 }
+
+if (mini._[0]) {
+    console.log(rpsls(mini._[0])); 
+} else {
+    console.log(rpsls()); 
+}
